@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Layout</title>
+    
+        <style>
+            body
+{
+    margin: 0%;
+    padding: 0%;
+}
+div.container
+    {
+        width: 100%;
+        border:solid 1px black;
+        padding:1px;
+       
+    }
+    .header{
+        padding: 10px;
+        background-color:aqua;
+        border: solid 1px black;
+        
+       }
+    
+    .nav{
+        background-color:#455e64;
+        padding: 5px;
+        border: solid 1px black;
+       
+        }
+       
+    .nav a{
+            color: white;
+        }
+
+        .nav ul li {  
+        list-style: none;
+        color: #7fffd4;
+        padding: 5px;
+        display: inline-block;
+        }
+
+        .left{
+        float: left;
+        width: 30%;
+        height: 500px;
+        background-color: #f0f8ff;      
+        border: solid 1px black;
+        margin-top:0%;
+
+        }
+        .left ul{
+            list-style: none;
+        }
+        .right
+        {
+            border: solid 1px black;
+            height: 500px;
+            background-color: #f0f8ff;
+
+
+           
+        }
+
+
+        .footer{
+            height: 44px;
+            background-color:#455e64; 
+           
+            padding-top: 10px;}
+
+            .footer h4{
+                color: 	#0c0c0c;
+                text-align: left; 
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <header class="header">
+            <img src="/pepsi.png" alt="pepsi" height="50px" width="50px">
+            
+        </header>
+        <div class="nav">
+       
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Main</a></li>
+                <li><a href="#">AboutUs</a></li>
+                <li><a href="#">ContactUs</a></li>
+            </ul>
+        
+        </div>
+        <div style="height:500px">
+            <div class="left">	
+                <ul>
+                    <li>block 1</li>
+                    <li>block 2</li>
+                    <li>block 3</li>
+                </ul>
+            </div>
+            <div class="right">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quas dignissimos, minus laboriosam voluptates magni nesciunt corporis ipsam distinctio facilis? Obcaecati ut unde consectetur eaque quod dolores temporibus, quibusdam quae.</p>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            Footer
+        </footer>
+    </div>
+
+    </body>
+</html>
